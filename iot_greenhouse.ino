@@ -4,8 +4,8 @@
 #include <time.h>
 
 // Wi-Fi credentials
-const char* WIFI_SSID = "GFiber_1C389";
-const char* WIFI_PASSWORD = "2239E662";
+const char* WIFI_SSID = "YOUR_WIFI_NAME";
+const char* WIFI_PASSWORD = "YOUR_WIFI_PASSWORD";
 
 // Laravel API address
 const char* SERVER_URL =
@@ -13,7 +13,7 @@ const char* SERVER_URL =
 
 // Use the same token stored in your Laravel .env file
 const char* DEVICE_TOKEN =
-  "2361b1e6a91b417a844223c8cdfe1c6a06439e42ab344c94accaeb4ea80e6bd5";
+  "YOUR_IOT_DEVICE_TOKEN";
 
 // DHT11 configuration
 #define DHTPIN 4
